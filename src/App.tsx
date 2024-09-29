@@ -7,8 +7,6 @@ import NftPreviewCard from './pages/nftPreviewCard/NftPreviewCard';
 import TipCalculator from './pages/tipCalculator/TipCalculator';
 import EcommerceProductPage from './pages/ecommerceProductPage/EcommerceProductPage';
 function App() {
-	// console.log();
-
 	return (
 		<Routes>
 			<Route path='/' element={<Home />} />

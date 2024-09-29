@@ -1,12 +1,14 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from 'react-router-dom';
 
 // Pages
-import Home from "./pages/home/Home";
-import RatingComponent from "./pages/ratingComponent/RatingComponent";
-import NftPreviewCard from "./pages/nftPreviewCard/NftPreviewCard";
-import TipCalculator from "./pages/tipCalculator/TipCalculator";
-import EcommerceProductPage from "./pages/ecommerceProductPage/EcommerceProductPage";
+import Home from './pages/home/Home';
+import RatingComponent from './pages/ratingComponent/RatingComponent';
+import NftPreviewCard from './pages/nftPreviewCard/NftPreviewCard';
+import TipCalculator from './pages/tipCalculator/TipCalculator';
+import EcommerceProductPage from './pages/ecommerceProductPage/EcommerceProductPage';
 function App() {
+	// console.log();
+
 	return (
 		<Routes>
 			<Route path='/' element={<Home />} />
